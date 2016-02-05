@@ -36,7 +36,7 @@ import java.util.Collection;
 import java.util.Collections;
 
 @RunWith(Parameterized.class)
-public class HCLFormatterTest extends LightCodeInsightFixtureTestCase {
+public class HCLFormatterBasicTest extends HCLFormatterBaseTestCase {
 
   @Parameterized.Parameters
   public static Collection<Object[]> data() {
